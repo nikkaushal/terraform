@@ -7,7 +7,7 @@ output "b" {
 }
 
 output "c" {
-value = True
+value = true
 }
 
 
