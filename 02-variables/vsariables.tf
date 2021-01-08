@@ -36,3 +36,15 @@ output "list_3" {
   value = var.list[2]
 }
 
+#variable type- map
+
+variable "map" {
+  default = {
+    course_name = "DevOps",
+    course_instructor ="nikhil"
+  }
+}
+
+output "COURSE_NAME" {
+  value = var.map ["course_name"]
+}
