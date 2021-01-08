@@ -52,5 +52,5 @@ output "COURSE_NAME" {
 #variables combining with other strings should be given in quotes
 #only thing  is terraform does not support single quotes any where
 output "COURSE" {
-  value = "welcome to ${var.map["course_name"]} training, trainer is ${var.map["trainer"]}"
+  value = "welcome to ${var.map["course_name"]} training, trainer is ${var.map["course_instructor"]}"
 }
