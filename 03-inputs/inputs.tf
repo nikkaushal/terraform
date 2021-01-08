@@ -20,3 +20,8 @@ output "abcde" {
   value = var.abcde
 }
 
+#input type as an argument
+variable "abc1" {}
+output "abc1" {
+  value = var.abc1
+}
