@@ -18,6 +18,6 @@ variable "abcde" {
 
 output "abcde" {
 output "abcde" {
-  value = var.abcd
+  value = var.abcde
 }
 
