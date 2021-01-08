@@ -42,6 +42,8 @@ output "abc3" {
 #input from shell ENV variables
 #export TF_VAR_abc4="Hello abc4"
 
-variable "abc4" {
-  output = var.abc4
+variable "abc4" {}
+
+output "abc4" {
+ value = var.abc4
 }
