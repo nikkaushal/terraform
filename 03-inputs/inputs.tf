@@ -17,7 +17,6 @@ variable "abcde" {
 
 
 output "abcde" {
-output "abcde" {
   value = var.abcde
 }
 
