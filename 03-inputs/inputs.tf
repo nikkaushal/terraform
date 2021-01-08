@@ -26,8 +26,15 @@ output "abc1" {
   value = var.abc1
 }
 
-#input type from a file
+#input type from a file terraform.tfvars
 variable "abc2" {}
 output "abc2" {
   value = var.abc2
+}
+
+
+#input form file, sample.auto.tfvars
+variable "abc3" {}
+output "abc3" {
+  value = var.abc3
 }

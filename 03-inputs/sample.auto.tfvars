@@ -1,0 +1,1 @@
+abc3 = "Hello from sample.auto.tfvars"
