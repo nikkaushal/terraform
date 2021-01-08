@@ -19,7 +19,7 @@ variable "list" {
 
 ## in one variables you can give multiple values which is of different data types
 
-output "list_1" {
+output "list_0" {
   value = var.list
 }
 
