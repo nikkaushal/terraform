@@ -9,3 +9,15 @@ variable "abc" {}
 output "abc" {
   value = var.abc
 }
+
+
+variable "abcd" {
+  type = number
+}
+
+
+output "abcde" {
+output "abcde" {
+  value = var.abcd
+}
+
