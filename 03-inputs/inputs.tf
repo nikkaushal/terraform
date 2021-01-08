@@ -11,7 +11,7 @@ output "abc" {
 }
 
 
-variable "abcd" {
+variable "abcde" {
   type = number
 }
 
