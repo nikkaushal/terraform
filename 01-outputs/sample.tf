@@ -12,7 +12,11 @@ value = true
 
 
 
+
 #Datatypes
 # String - should be in quotes
 # Numbers/float (no quotes)
 # booleans (no quotes)
+# when a new provider then should/could do init
+
+
