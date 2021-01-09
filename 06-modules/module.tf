@@ -13,3 +13,8 @@ provider "aws" {
 output "PUBLIC_IP" {
   value = module.module1.PUBLIC_IP
 }
+
+module "module2" {
+  source = "./module2"
+  PUBLIC_IP = module.module1.PUBLIC_IP
+}
