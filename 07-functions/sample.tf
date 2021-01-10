@@ -1,3 +1,5 @@
+#link to terraform functions https://www.terraform.io/docs/configuration/functions.html
+
 variable "name" {
   default = "sampleisdevelopment"
 }
