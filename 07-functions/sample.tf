@@ -1,5 +1,5 @@
 variable "name" {
-  default = "sample"
+  default = "sampleisdevelopment"
 }
 resource "aws_instance" "sample" {
   ami                        = "ami-052ed3344670027b3"
